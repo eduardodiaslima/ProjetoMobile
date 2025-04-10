@@ -1,71 +1,50 @@
-# Projeto Arrastão - Aplicativo Mobile
+# Welcome to your Expo app 👋
 
-Este é um aplicativo mobile desenvolvido em **React Native**, inspirado no projeto social Arrastão. O app oferece funcionalidades voltadas à comunidade, como acesso a cursos, vagas de emprego, campanhas sociais, notícias e configurações de conta do usuário.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## 📱 Telas disponíveis
+## Get started
 
-### Home
-- Acesso rápido às seções: Cursos livres, Vagas de emprego, Notícias, Campanhas.
-- Navegação via barra inferior (ícones).
+1. Install dependencies
 
-### Cursos Livres
-- Exibição de cards com imagem, título e carga horária dos cursos disponíveis.
+   ```bash
+   npm install
+   ```
 
-### Conta
-- Alterar dados
-- Alterar senha
-- Configurações
-- Dados pessoais
-- Privacidade
-- Botão "Sair"
+2. Start the app
 
-### Vagas de Emprego
-- Lista de oportunidades com cargo, empresa e cidade.
-- Botão "Saiba mais" em cada card.
+   ```bash
+    npx expo start
+   ```
 
-## 🛠️ Tecnologias utilizadas
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [React Navigation](https://reactnavigation.org/) (navegação entre telas)
-- [Expo](https://expo.dev/) (opcional, caso usado)
+In the output, you'll find options to open the app in a
 
-## 📁 Estrutura de pastas (exemplo)
-```
-/ProjetoArrastao
-│
-├── assets/             # Imagens como logo e fotos dos cursos
-├── screens/            # Telas: HomeScreen, CursosScreen, ContaScreen, VagasScreen
-├── components/         # Componentes reutilizáveis (futuros)
-├── style.ts            # Estilos globais compartilhados entre as telas
-├── App.tsx             # Ponto de entrada principal do app
-```
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-## ▶️ Como rodar o projeto
-1. Clone este repositório
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
 ```bash
-git clone https://github.com/seu-usuario/projeto-arrastao.git
-```
-2. Instale as dependências
-```bash
-npm install
-```
-3. Execute o app
-```bash
-npm start
-```
-Ou, se estiver usando Expo:
-```bash
-npx expo start
+npm run reset-project
 ```
 
-## 📌 Observações
-- O projeto pode ser expandido com funcionalidades como autenticação, banco de dados e notificações.
-- As imagens utilizadas são meramente ilustrativas e devem ser substituídas por conteúdo real do Projeto Arrastão.
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## 🤝 Contribuição
-Sinta-se à vontade para sugerir melhorias ou abrir PRs!
+## Learn more
 
----
+To learn more about developing your project with Expo, look at the following resources:
 
-Feito com 💙 inspirado no trabalho do Projeto Arrastão.
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
